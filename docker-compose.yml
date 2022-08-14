@@ -1,0 +1,15 @@
+version: "3.6"
+
+services:
+  q3js:
+    image: "rmsrob/quake3js:latest"
+    container_name: quakejs
+    environment:
+      - HTTP_PORT=8080
+      # - SERVER=192.168.1.12
+    restart: always
+    ports:
+      - "8080:80"
+      - "27960:27960"
+    # extra_hosts:
+    #   - "content.quakejs.com:127.0.0.1"
