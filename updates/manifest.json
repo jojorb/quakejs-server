@@ -17,7 +17,7 @@
   {
     "name": "baseq3/pak101.pk3",
     "compressed": 2652817,
-    "checksum": 2206768903
+    "checksum": 3827005457
   },
   {
     "name": "baseq3/q3wctf1.pk3",
@@ -88,5 +88,65 @@
     "name": "cpma/pak100.pk3",
     "compressed": 6299786,
     "checksum": 1787998258
+  },
+  {
+    "name": "baseq3/overkill.pk3",
+    "compressed": 16401505,
+    "checksum": 218489051
+  },
+  {
+    "name": "baseq3/vq2dm1.pk3",
+    "compressed": 16401505,
+    "checksum": 115359398
+  },
+  {
+    "name": "baseq3/q3pong2.pk3",
+    "compressed": 16401505,
+    "checksum": 220197976
+  },
+  {
+    "name": "baseq3/q3shw26.pk3",
+    "compressed": 16401505,
+    "checksum": 368296921
+  },
+  {
+    "name": "baseq3/pro-t4_v2.pk3",
+    "compressed": 16401505,
+    "checksum": 1042301151
+  },
+  {
+    "name": "baseq3/bloodcovenant.pk3",
+    "compressed": 16401505,
+    "checksum": 1188070187
+  },
+  {
+    "name": "baseq3/teddm1.pk3",
+    "compressed": 16401505,
+    "checksum": 1343755445
+  },
+  {
+    "name": "baseq3/gbdm1.pk3",
+    "compressed": 16401505,
+    "checksum": 1486477069
+  },
+  {
+    "name": "baseq3/pukka3tourney2.pk3",
+    "compressed": 16401505,
+    "checksum": 1590520277
+  },
+  {
+    "name": "baseq3/map-13vast.pk3",
+    "compressed": 16401505,
+    "checksum": 2297896222
+  },
+  {
+    "name": "baseq3/quartzdm0.pk3",
+    "compressed": 16401505,
+    "checksum": 2797526167
+  },
+  {
+    "name": "baseq3/pro-q3tourney7.pk3",
+    "compressed": 16401505,
+    "checksum": 3387376760
   }
 ]

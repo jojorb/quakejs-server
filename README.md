@@ -1,6 +1,6 @@
 # QuakeJs - CPMA
 
-# build docker image
+## Build docker image
 
 ```sh
 cd quake-server
@@ -16,5 +16,23 @@ docker exec -it quakejs bash
 docker restart quakejs
 ```
 
-open [http://localhost:8080/](http://localhost:8080/)
-agree the EULA of Quake
+> In **Google Chrome** open [http://localhost:8080/](http://localhost:8080/)
+> Agree the EULA and frag!
+
+> Again open in Google Chrome if you see this kind of error in the console after accepting the EULA and the game not loading.
+```js
+ioquake3.js:12428 Uncaught RangeError: Invalid array length
+    at Uint8Array.slice (<anonymous>)
+    at Object.ensureFlexible (ioquake3.js:12428:49)
+```
+
+## Add map or `.pk3`
+
+deposit your `.pk3` file inside `updates/` folder and then you need to apply a fix
+- on the name of the file and on the `manifest.json`
+
+> to do this use the script
+
+```sh
+./quakejs/cctools/crc-rename ../../updates/baseq3/*
+```
