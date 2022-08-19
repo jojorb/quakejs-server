@@ -12,12 +12,12 @@
   {
     "name": "baseq3/pak100.pk3",
     "compressed": 16401505,
-    "checksum": 2388798635
+    "checksum": 542543686
   },
   {
     "name": "baseq3/pak101.pk3",
     "compressed": 2652817,
-    "checksum": 3827005457
+    "checksum": 2401628751
   },
   {
     "name": "baseq3/q3wctf1.pk3",
@@ -88,6 +88,16 @@
     "name": "cpma/pak100.pk3",
     "compressed": 6299786,
     "checksum": 1787998258
+  },
+  {
+    "name": "cpma/cos1_beta7b.pk3",
+    "compressed": 6299786,
+    "checksum": 2160441068
+  },
+  {
+    "name": "cpma/b0_beta6.pk3",
+    "compressed": 6299786,
+    "checksum": 2938731353
   },
   {
     "name": "baseq3/overkill.pk3",

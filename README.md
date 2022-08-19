@@ -36,3 +36,17 @@ deposit your `.pk3` file inside `updates/` folder and then you need to apply a f
 ```sh
 ./quakejs/cctools/crc-rename ../../updates/baseq3/*
 ```
+
+## Drop your cfg
+
+- open google chrome dev console `CTRL + J`
+- pass your cfg in between the back tick
+```js
+FS.writeFile(
+  "base/baseq3/your_name.cfg",
+  ``
+);
+```
+- if you change some video setings
+    - open the quakejs console with `@` or `~`
+    - type `/reconnect`
