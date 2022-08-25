@@ -26,6 +26,12 @@ ioquake3.js:12428 Uncaught RangeError: Invalid array length
     at Object.ensureFlexible (ioquake3.js:12428:49)
 ```
 
+if you got CORS issue just open a dedicate Chrome session
+
+```sh
+open -na Google\ Chrome --args --user-data-dir=/tmp/temporary-chrome-profile-dir --disable-web-security --disable-site-isolation-trials
+```
+
 ## Add map or `.pk3`
 
 deposit your `.pk3` file inside `updates/` folder and then you need to apply a fix
